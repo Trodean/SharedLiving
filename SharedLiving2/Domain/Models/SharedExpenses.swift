@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+// Represents one housemate's portion of a shared expense.
 struct SharedExpenses: Identifiable, Codable {
     let id: UUID
     let title: String

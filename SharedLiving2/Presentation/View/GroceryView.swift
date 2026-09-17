@@ -5,6 +5,7 @@
 //  Created by Yang Peng on 16/9/2026.
 //
 
+//Displays grocery items shared by the household and separates urgent items from non-urgent items and also provides access to the Add Grocery Item screen.
 import SwiftUI
 
 struct GroceryView: View {

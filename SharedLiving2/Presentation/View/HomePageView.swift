@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// It provides the main entry point to the shared living app.
+// Gives users quick access to expenses, chores, groceries and household member information.
 
 import SwiftUI
 

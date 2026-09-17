@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// Displays shared household expenses and a summary of the total amount recorded, and it also provides access to the Add Expense screen through Add Button.
+
 
 import SwiftUI
 

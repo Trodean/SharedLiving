@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// Displays the members who belong to the shared household.
+//Current user is shown separately while the other housemates are presented as a simple list.
 
 import SwiftUI
 

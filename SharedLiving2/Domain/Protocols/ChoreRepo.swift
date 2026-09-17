@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+// Defines the data operations for household chores.
 protocol ChoreRepo {
     func addChore(_ chore: Chore)
     func updateChore(_ chore: Chore)

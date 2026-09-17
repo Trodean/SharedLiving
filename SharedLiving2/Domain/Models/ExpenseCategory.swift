@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//Defines the category of a shared expense.
 enum ExpenseCategory: String, CaseIterable, Identifiable, Codable {
     case groceries = "Groceries"
     case electricity = "Electricity Bill"

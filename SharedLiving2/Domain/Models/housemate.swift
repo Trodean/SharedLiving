@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Represents a person who belongs to the shared household.
 struct Housemate: Identifiable, Codable {
     let id: UUID
     let name: String

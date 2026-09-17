@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// This one handles the process of recording a shared household expense.
+//It checks that the expense amount and sharing portions are valid before the expense is saved.
 
 import Foundation
 

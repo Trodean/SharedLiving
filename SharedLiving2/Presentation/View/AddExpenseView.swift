@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+//Collects the information needed to record a new shared expense.
+//In this UI, users can type down the amount, category, payer, and portion split before submitting the expense.
 
 import SwiftUI
 

@@ -7,6 +7,7 @@
 
 import Foundation
 
+//Define errors which can occur when recording a shared expense.
 enum RecordSEError: Error, LocalizedError {
     case invalid_amount
     case no_expense_shares

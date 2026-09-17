@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Define errors which can occur when completing a household chore.
 enum CompleteChoreError: Error, LocalizedError {
     case alreadyCompleted
 

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Defines errors that can occur when assigning a household chore.
 enum AssignChoreError: Error, LocalizedError {
     case emptyTitle
     case invalidDueDate

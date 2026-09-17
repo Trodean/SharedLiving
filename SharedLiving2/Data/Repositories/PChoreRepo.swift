@@ -4,7 +4,7 @@
 //
 //  Created by Yang Peng on 17/9/2026.
 //
-
+//Stores chore records in a local JSON file so assigned and completed chores remain available after the app is reopened. It loads existing chore data when the repository is created and saves changes whenever a chore is added or updated.
 import Foundation
 
 final class PChoreRepo: ChoreRepo {

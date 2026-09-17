@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// Collects the information needed to assign a new household chore.
+// Users can enter a chore name, choose a due date, and select the housemate responsible for the task.
 
 import SwiftUI
 

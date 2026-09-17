@@ -4,6 +4,7 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// and this one andles the process of assigning a household chore. It checks that the chore has a valid title and due date before it is stored.
 
 import Foundation
 

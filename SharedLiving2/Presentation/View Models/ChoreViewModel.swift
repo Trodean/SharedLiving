@@ -4,6 +4,7 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// This connects the chore views with the core use cases, managing assigned chores, completed chores updates, and any related errors.
 
 import Foundation
 import Combine

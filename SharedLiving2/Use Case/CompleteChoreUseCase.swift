@@ -3,7 +3,7 @@
 //  SharedLiving2
 //
 //  Created by Yang Peng on 16/9/2026.
-//
+// Finally this one handles the process of completing chore. It prevents a chore from being completed more than once and updates the stored chore state.
 
 import Foundation
 

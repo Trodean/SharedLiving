@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// Displays household chores based on their due dates and completion status.
+// What users can do: Switch between upcoming chores and all chores, assign new chores and complete existing ones.
 
 import SwiftUI
 

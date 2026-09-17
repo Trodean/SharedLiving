@@ -4,6 +4,9 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
+// Provides a form for entering basic grocery item information.
+// The current version collects the item name, quantity & urgency status.
+// will add in some persistent grocery management in the future.
 
 import SwiftUI
 

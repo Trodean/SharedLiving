@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Defines the data operations for shared expenses.
 protocol SERepository {
     func addExpenses(_ expense: SharedExpenses)
     func getAllexpenses() -> [SharedExpenses]

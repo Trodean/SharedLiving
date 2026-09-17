@@ -4,6 +4,8 @@
 //
 //  Created by Yang Peng on 15/9/2026.
 //
+// Creates the main app dependencies and connects the repositories, use cases and view models together.
+// It also provides shared expense and chore state to the main navigation flow.
 
 import SwiftUI
 

@@ -4,7 +4,7 @@
 //
 //  Created by Yang Peng on 16/9/2026.
 //
-
+// Controls navigation between the home page and main household features, also passes shared view models and housemate data to the screens if needed.
 import SwiftUI
 
 struct MainTabView: View {
