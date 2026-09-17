@@ -6,11 +6,27 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		8BA7167D305AD90D00FF8C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBD03023059348E0052B52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBD03093059348E0052B52F;
+			remoteInfo = SharedLiving2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8BA71679305AD90D00FF8C7E /* SharedLiving2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedLiving2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBD030A3059348E0052B52F /* SharedLiving2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedLiving2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		8BA7167A305AD90D00FF8C7E /* SharedLiving2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedLiving2Tests;
+			sourceTree = "<group>";
+		};
 		8BBD030C3059348E0052B52F /* SharedLiving2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SharedLiving2;
@@ -19,6 +35,11 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8BA71676305AD90D00FF8C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 		8BBD03073059348E0052B52F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
@@ -31,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				8BBD030C3059348E0052B52F /* SharedLiving2 */,
+				8BA7167A305AD90D00FF8C7E /* SharedLiving2Tests */,
 				8BBD030B3059348E0052B52F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8BBD030A3059348E0052B52F /* SharedLiving2.app */,
+				8BA71679305AD90D00FF8C7E /* SharedLiving2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,6 +69,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8BA71678305AD90D00FF8C7E /* SharedLiving2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA7167F305AD90D00FF8C7E /* Build configuration list for PBXNativeTarget "SharedLiving2Tests" */;
+			buildPhases = (
+				8BA71675305AD90D00FF8C7E /* Sources */,
+				8BA71676305AD90D00FF8C7E /* Frameworks */,
+				8BA71677305AD90D00FF8C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA7167E305AD90D00FF8C7E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8BA7167A305AD90D00FF8C7E /* SharedLiving2Tests */,
+			);
+			name = SharedLiving2Tests;
+			productName = SharedLiving2Tests;
+			productReference = 8BA71679305AD90D00FF8C7E /* SharedLiving2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8BBD03093059348E0052B52F /* SharedLiving2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BBD03153059348F0052B52F /* Build configuration list for PBXNativeTarget "SharedLiving2" */;
@@ -74,6 +118,10 @@
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
+					8BA71678305AD90D00FF8C7E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 8BBD03093059348E0052B52F;
+					};
 					8BBD03093059348E0052B52F = {
 						CreatedOnToolsVersion = 27.0;
 					};
@@ -94,11 +142,17 @@
 			projectRoot = "";
 			targets = (
 				8BBD03093059348E0052B52F /* SharedLiving2 */,
+				8BA71678305AD90D00FF8C7E /* SharedLiving2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8BA71677305AD90D00FF8C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 		8BBD03083059348E0052B52F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
@@ -107,6 +161,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8BA71675305AD90D00FF8C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 		8BBD03063059348E0052B52F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -114,7 +173,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8BA7167E305AD90D00FF8C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBD03093059348E0052B52F /* SharedLiving2 */;
+			targetProxy = 8BA7167D305AD90D00FF8C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8BA71680305AD90D00FF8C7E /* Debug configuration for PBXNativeTarget "SharedLiving2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.SharedLiving2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedLiving2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SharedLiving2";
+			};
+			name = Debug;
+		};
+		8BA71681305AD90D00FF8C7E /* Release configuration for PBXNativeTarget "SharedLiving2Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.SharedLiving2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedLiving2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SharedLiving2";
+			};
+			name = Release;
+		};
 		8BBD03133059348F0052B52F /* Debug configuration for PBXProject "SharedLiving2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,6 +406,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8BA7167F305AD90D00FF8C7E /* Build configuration list for PBXNativeTarget "SharedLiving2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA71680305AD90D00FF8C7E /* Debug configuration for PBXNativeTarget "SharedLiving2Tests" */,
+				8BA71681305AD90D00FF8C7E /* Release configuration for PBXNativeTarget "SharedLiving2Tests" */,
+			);
+			defaultConfigurationName = Release;
+		};
 		8BBD03053059348E0052B52F /* Build configuration list for PBXProject "SharedLiving2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

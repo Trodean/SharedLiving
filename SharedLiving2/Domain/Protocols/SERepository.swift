@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Repository {
+protocol SERepository {
     func addExpenses(_ expense: SharedExpenses)
     func getAllexpenses() -> [SharedExpenses]
 }

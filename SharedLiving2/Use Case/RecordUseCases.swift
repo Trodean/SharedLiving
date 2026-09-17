@@ -1,0 +1,34 @@
+//
+//  RecordUseCases.swift
+//  SharedLiving2
+//
+//  Created by Yang Peng on 16/9/2026.
+//
+
+import Foundation
+
+struct RecordUseCases {
+    private let repository: any SERepository
+    
+    init (repository: any SERepository){
+        self.repository = repository
+    }
+    func execute(_ expense:SharedExpenses) throws {
+        guard expense.amount > 0 else {
+            throw RecordSEError.invalid_amount
+        }
+        
+        guard !expense.shares.isEmpty else {
+            throw RecordSEError.no_expense_shares
+        }
+        
+        guard expense.shares.allSatisfy( {$0.portions > 0}) else {
+            throw RecordSEError.invalid_share_portions
+        }
+        repository.addExpenses(expense)
+    }
+    func getAllExpenses() -> [SharedExpenses] {
+        repository.getAllexpenses()
+    }
+}
+
